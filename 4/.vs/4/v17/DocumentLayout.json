@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\as665\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp_class\\cp3(Practice problem)\\4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01393F6E-F805-4CA5-8757-62DC24CC98DF}|4\\4.vcxproj|C:\\Users\\as665\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp_class\\cp3(Practice problem)\\4\\4\\3-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01393F6E-F805-4CA5-8757-62DC24CC98DF}|4\\4.vcxproj|solutionrelative:4\\3-4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "3-4.cpp",
+              "DocumentMoniker": "C:\\Users\\as665\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp_class\\cp3(Practice problem)\\4\\4\\3-4.cpp",
+              "RelativeDocumentMoniker": "4\\3-4.cpp",
+              "ToolTip": "C:\\Users\\as665\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp_class\\cp3(Practice problem)\\4\\4\\3-4.cpp",
+              "RelativeToolTip": "4\\3-4.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T07:46:21.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
