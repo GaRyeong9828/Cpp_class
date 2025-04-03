@@ -22,7 +22,7 @@
 >### 1. <a href = "#caution">주의사항</a>
 >### 2. <a href = "#book">교재</a>
 >### 3. <a href = "#chapter">목차</a>
->### 3. <a href = "#result">문제풀이</a>
+>### 4. <a href = "#result">문제풀이</a>
 >>#### 1. <a href = "#cp2-1">실습문제 1번</a>
 >>#### 2. <a href = "#cp2-2">실습문제 2번</a>
 >>#### 3. <a href = "#cp2-3">실습문제 3번</a>
