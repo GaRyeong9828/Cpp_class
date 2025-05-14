@@ -56,7 +56,7 @@ public:
         if (!print(pages))
             return false;
         if (avltoner < pages) {
-            cout << "토너가 부족하여 프린트 할 수 없습니다.\n";
+            cout << "토너가 부족하여 프린트 할 수 없습니다."<<endl;
             return false;
         }
         avltoner -= pages;
@@ -69,12 +69,12 @@ public:
 };
 
 int main() {
-    int pnum, pages;
-    char yon;
+    int num, pages;
+    char choose;
     PrintInkJet* inkjet = new PrintInkJet("Officejet V40", "Hp", 5, 10);
     PrintLaser* laser = new PrintLaser("SCX-6x45", "삼성전자", 3, 20);
 
-    cout << "현재 작동중인 2 대의 프린터는 아래와 같다\n";
+    cout << "현재 작동중인 2 대의 프린터는 아래와 같다" << endl;
     cout << "잉크젯 : ";
     inkjet->show();
     cout << "레이저 : ";
@@ -83,29 +83,29 @@ int main() {
 
     while (true) {
         cout << "프린터(1:잉크젯, 2:레이저)와 매수 입력>>";
-        cin >> pnum >> pages;
-        if (pnum == 1)
+        cin >> num >> pages;
+        if (num == 1)
             if (inkjet->printInkJet(pages))
-                cout << "프린트 하였습니다.\n";
-        if (pnum == 2)
+                cout << "프린트 하였습니다." << endl;
+        if (num == 2)
             if (laser->printLaser(pages))
-                cout << "프린트 하였습니다.\n";
-        if (pnum != 1 && pnum != 2)
-            cout << "프린터를 잘못 선택하셨습니다.\n";
+                cout << "프린트 하였습니다." << endl;
+        if (num != 1 && num != 2)
+            cout << "프린터를 잘못 선택하셨습니다." << endl;
 
         inkjet->show();
         laser->show();
 
         while (true) {
             cout << "계속 프린트 하시겠습니까(y/n)>>";
-            cin >> yon;
+            cin >> choose;
             cout << endl;
-            if (yon == 'n')
+            if (choose == 'n')
                 return 0;
-            else if (yon == 'y')
+            else if (choose == 'y')
                 break;
             else
-                cout << "잘못 입력하셨습니다.\n";
+                cout << "잘못 입력하셨습니다." << endl;
         }
     }
 

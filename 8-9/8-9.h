@@ -11,34 +11,32 @@ public:
 };
 
 class Seat {
-    string name;
+    string n;
 public:
-    Seat() { name = { "---" }; }
-    void set_name(string name) { this->name = name; }
-    void reset_name() { name = { "---" }; }
-    string show_name() { return name; }
-
+    Seat() { n = { "---" }; }
+    void set_name(string n) { this->n = n; }
+    void reset_name() { n = { "---" }; }
+    string show_name() { return n; }
 };
 
 class Schedule {
-    Seat* seat;
-    string scname;
-    int seat_num;
-    string person_name;
+    Seat* st;
+    string ts;
+    int s;
+    string n;
 public:
-    Schedule() { seat = new Seat[8]; }
-    ~Schedule() { delete[] seat; }
-    void set_scname(string scname) { this->scname = scname; }
+    Schedule() { st = new Seat[8]; }
+    ~Schedule() { delete[] st; }
+    void set_scname(string ts) { this->ts = ts; }
     void show_schedule();
-    void set_resv(int seat_num, string person_name);
-    void cancel_resv(int seat_num, string person_name);
+    void set_resv(int s, string n);
+    void cancel_resv(int s, string n);
 };
-
 
 class AirlineBook {
     Schedule* schedule;
-    int menu;
-    int time;
+    int m;
+    int t;
 public:
     AirlineBook() {
         schedule = new Schedule[3];
