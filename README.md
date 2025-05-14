@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/af910a8c-6a7b-4f73-8ff6-600bde5611db)<a name = "title"></a>
 # (명품)C++ Programming (개정판) 실습문제2 문제풀이
 ---
 <a name = "author"></a>
